@@ -179,7 +179,7 @@ module SubdomainFu
       controller.helper_method(:current_domain)
     end
 
-    protected
+    #protected
     def current_subdomain
       SubdomainFu.current_subdomain(request)
     end
